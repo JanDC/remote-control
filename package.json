@@ -1,0 +1,25 @@
+{
+  "name": "jandc/mpd-remote",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "mpd2": "^1.0.2",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
